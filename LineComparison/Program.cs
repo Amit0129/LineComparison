@@ -36,13 +36,17 @@ namespace LineComparison
             double secondLen = comparision.LengthCalc(x2, y2, x3, y3);
             Console.WriteLine(firstLen);
             Console.WriteLine(secondLen);
-            if (firstLen == secondLen)
+            if (firstLen > secondLen)
             {
-                Console.WriteLine("The Two Lines Length Is Eqal");
+                Console.WriteLine("The First Line is greater Than Second Line");
+            }
+            else if (firstLen < secondLen)
+            {
+                Console.WriteLine("The First Line is Less Than Second Line");
             }
             else
             {
-                Console.WriteLine("The Two lines Are Not Eqal");
+                Console.WriteLine("The Two Lines Length Is Eqal");
             }
 
         }
