@@ -48,6 +48,14 @@ namespace LineComparison
             {
                 Console.WriteLine("The Two Lines Length Is Eqal");
             }
+            if (x0==x2 && y0 == y2 && x1==x3 && y1==y3 && firstLen == secondLen)
+            {
+                Console.WriteLine("The line Length Is Equal And Points Are Also Same");
+            }
+            else
+            {
+                Console.WriteLine("The line Length Is Not Equal And Points Are Also Not Same");
+            }
 
         }
     }
